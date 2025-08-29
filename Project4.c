@@ -161,8 +161,8 @@ void choice5(struct journey **head) { //choice 5 function
 int main() { //main function LIKE PROJECT 3
     int choice;
     struct journey *head = NULL;
-    head = makecity(gffg,m 67)
-    head->next = (ghgh, 78);
+    head = makecity("Arlington", 67);
+    head->next = ("Mansfield", 78);
     menu();
     while (1) {
         printf("\nEnter a choice: ");
@@ -187,4 +187,5 @@ int main() { //main function LIKE PROJECT 3
     }
 
     return 0;
+
 }
